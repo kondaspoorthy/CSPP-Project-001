@@ -1,11 +1,11 @@
-"""Implementing the cat shell command in python."""
-
+"""Implementing the cat shell command in python.""".py
 import sys
 from lib.helper import cat, readfile
+import requests
 
 TEXT = None
 ARG_CNT = len(sys.argv) - 1
-
+#  This is a comment
 if ARG_CNT == 0:
     TEXT = sys.stdin.read()
 
