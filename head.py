@@ -2,7 +2,7 @@
 
 import sys
 from lib.helper import head, readfile
-
+import requests
 TEXT = None
 ARG_CNT = len(sys.argv) - 1
 

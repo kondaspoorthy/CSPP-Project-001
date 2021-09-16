@@ -2,7 +2,6 @@
 
 import sys
 from lib.helper import tac, readfile
-
 TEXT = None
 ARG_CNT = len(sys.argv) - 1
 

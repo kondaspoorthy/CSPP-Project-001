@@ -5,7 +5,7 @@ import requests
 
 TEXT = None
 ARG_CNT = len(sys.argv) - 1
-#  This is a comment
+# starting of if loops
 if ARG_CNT == 0:
     TEXT = sys.stdin.read()
 
