@@ -1,0 +1,1 @@
+s = "Knuth Donald"
